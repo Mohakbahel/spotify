@@ -1,0 +1,161 @@
+*{
+    font-family: "Gruppo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width:250px;
+}
+.home-tab{
+    display: flex;
+    flex-direction: column;
+    height:100px;
+    width:95%;
+    background-color: #121212;
+    margin: 5px 5px;
+    border-radius: 10px;
+}
+.lib-nav{
+    display: flex;
+}
+.homeicon{
+    margin: 10px 10px;
+    padding:5px 5px;
+}
+.white-icon{
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px;
+    opacity: 0.7;
+    font-weight: 600;
+}
+.white-icon:hover{
+    opacity: 1;
+}
+.lib{
+    display:flex;
+    background-color: #121212;
+    flex-direction: column;
+    margin: 5px 7px;
+    border-radius: 10px;
+    height:100vh;
+}
+.lib-nav{
+    background-color: #121212;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.lib-img{
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-left: 10px;
+}
+.lib-icon2{
+    justify-content: space-between;
+    display: flex;
+    width:50px;
+    margin-right: 20px;
+}
+.cards{
+    background-color: #212121;
+    border-radius: 10px;
+    margin:5px 5px;
+}
+.cards p{
+    margin-left: 5px;
+}
+.cards button{
+    margin:0px 10px 10px 10px;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: 700;
+    padding:6px 6px;
+}
+.maincontent{
+    display: flex;
+    flex: 1;
+    background-color: #121212;
+    border-radius: 15px;
+    margin: 10px;
+    flex-direction: column;
+}
+.main-nav{
+    display:flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    height: 70px;
+    background-color: #121212;
+    position:sticky ;
+    top: 10px;
+    width:100%;
+    align-items: center;
+}
+.navi{
+   margin: 10px;
+   padding: 10px;
+}
+.badge-user{
+    margin:10px;
+    padding: 10px;
+}
+.badge-user button{
+    border-radius: 10px;
+    border-style: none;
+    padding:5px 5px;
+    margin: 5px 5px;
+    font-weight: 600;
+}
+.badge2{
+    background-color: black;
+    color: white;
+}
+.badge2 i{
+    margin-right:5px
+}
+.card{
+    background-color: #212121;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    width:170px;
+    height: 220px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.card img{
+    width:150px;
+    height:130px;
+    padding:5px 9px;
+}
+h3{
+    margin-left: 20px;
+}
+h4{
+    margin: 10px 10px;
+}
+.cardp{
+    margin:5px 5px;
+}
+.mastercard{
+    display: flex;
+}
+.music-player{
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    background-color:red;
+    width: 100vw;
+    height: 70px;
+}
